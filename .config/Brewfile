@@ -1,0 +1,53 @@
+# Terminal stuff
+cask "alacritty"
+brew "zsh"
+brew "starship"
+brew "zellij"
+brew "helix"
+
+# Package managers
+brew "node"
+brew "mise"
+brew "pipx"
+
+# Git
+brew "gh"
+brew "git"
+brew "gitui"
+
+# LSP
+brew "cfn-lint"
+brew "marksman"
+brew "ruff"
+brew "taplo"
+brew "yaml-language-server"
+
+# Window manager
+cask "rectangle"
+
+# Pairing
+cask "tuple"
+
+# Docker
+brew "colima"
+brew "docker"
+brew "docker-buildx"
+brew "docker-completion"
+brew "docker-compose"
+brew "docker-credential-helper"
+
+# Databases
+brew "mysql"
+brew "postgresql@14"
+
+# Tools
+brew "bacon"
+brew "bat"
+brew "cycode"
+brew "dust"
+brew "eza"
+brew "gradle"
+brew "jq"
+brew "plantuml"
+brew "ripgrep"
+brew "stow"
