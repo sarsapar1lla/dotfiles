@@ -1,0 +1,175 @@
+format = '🦊 in $directory$git_branch$git_state$git_status$memory_usage$character'
+right_format = '$python$java$rust$haskell$elixir'
+
+command_timeout = 1000
+
+palette = 'tim'
+
+[palettes.tim]
+aqua = '#05fccb'
+purple = '#b305f7'
+hotpink = '#ff33cc'
+limegreen = '#99ff33'
+orange = '#ff6600'
+cyan = '#00ccff'
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+style = 'bold limegreen'
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+symbol = " "
+style = 'bold cyan'
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = "⌘ "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[java]
+symbol = " "
+style = 'bold orange'
+
+[julia]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+threshold = 80
+disabled = false
+style = "bold aqua"
+
+[meson]
+symbol = "喝 "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "﯑ "
+Gentoo = " "
+HardenedBSD = "ﲊ "
+Illumos = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = " "
+openSUSE = " "
+OracleLinux = " "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = " "
+Solus = "ﴱ "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = " "
+
+[package]
+symbol = " "
+
+[pijul_channel]
+symbol = "🪺 "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "ﳒ "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "🦀 "
+
+[scala]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
+
+[character]
+success_symbol = '[λ](bold orange)'
+error_symbol = '[!](bold hotpink)'
+
+[username]
+style_user = "bold aqua"
+show_always = false
+
+[git_status]
+untracked = '[⬤ ](hotpink)'
+modified = '[⬤ ](orange)'
+staged = '[⬤ ](limegreen)'
+stashed = '📦 '
+format = '$untracked$modified$staged$stashed'
