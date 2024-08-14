@@ -1,5 +1,7 @@
 export ZSH_CONFIG="$HOME/.config/zsh"
 
+# Add binaries to path
+export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/Users/timothy.may/.local/bin"
 
 export EDITOR=hx
