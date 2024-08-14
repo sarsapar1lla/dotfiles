@@ -1,4 +1,4 @@
-import = ["/Users/timothy.may/.config/alacritty/themes/catpuccin.toml"]
+import = ["/Users/timothy.may/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [font]
 size = 12.0
