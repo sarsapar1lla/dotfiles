@@ -51,8 +51,3 @@ brew "jq"
 brew "plantuml"
 brew "ripgrep"
 brew "stow"
-
-# Internal tools
-tap "qmetric/homebrew-tap"
-brew "trawler"
-brew "scuttle"
