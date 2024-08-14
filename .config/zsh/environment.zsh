@@ -1,4 +1,4 @@
-export ZSH_CONFIG="$HOME/.config.zsh"
+export ZSH_CONFIG="$HOME/.config/zsh"
 
 export PATH="$PATH:/Users/timothy.may/.local/bin"
 
