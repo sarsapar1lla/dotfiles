@@ -7,9 +7,7 @@ typeset -a sources
 sources+="$ZSH_CONFIG/aliases.zsh"
 sources+="$ZSH_CONFIG/mise.zsh"
 sources+="$ZSH_CONFIG/starship.zsh"
-
-# Add fzf
-sources+=~/.fzf.zsh
+sources+="$ZSH_CONFIG/fzf.zsh"
 
 # Add local
 sources+=~/.local/.zshrc
