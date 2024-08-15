@@ -51,3 +51,9 @@ brew "jq"
 brew "plantuml"
 brew "ripgrep"
 brew "stow"
+
+# Include local Brewfile if present
+local_file = File.join(ENV["HOME"], "/.local/.config/Brewfile")
+if File.file?(local_file) then
+  instance_eval(File.read(local_file))
+end
