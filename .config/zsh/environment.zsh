@@ -3,6 +3,7 @@ export ZSH_CONFIG="$HOME/.config/zsh"
 # Add binaries to path
 export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="/usr/local/sbin:$PATH"  # Homebrew binaries
 
 export EDITOR=hx
 
