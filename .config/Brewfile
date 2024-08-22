@@ -5,6 +5,7 @@ brew "starship"
 brew "zellij"
 brew "zsh"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # Package managers
 brew "node"

@@ -14,6 +14,9 @@ sources+="$ZSH_CONFIG/fzf-tab.zsh"
 # Add local
 sources+=~/.local/.zshrc
 
+# Syntax highlighting - must be sourced last
+sources+="$ZSH_CONFIG/syntax-highlighting.zsh"
+
 # Attempt to source each file
 foreach file (`echo $sources`)
     if [[ -a $file ]]; then
