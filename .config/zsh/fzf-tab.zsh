@@ -12,7 +12,6 @@ else
   # Enable filename colourising
   zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
-
   if command -v eza &> /dev/null; then
     zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
   fi
