@@ -1,9 +1,10 @@
 # Terminal stuff
 cask "alacritty"
-brew "zsh"
+brew "helix"
 brew "starship"
 brew "zellij"
-brew "helix"
+brew "zsh"
+brew "zsh-completions"
 
 # Package managers
 brew "node"
