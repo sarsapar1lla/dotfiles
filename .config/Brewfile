@@ -1,11 +1,9 @@
 # Terminal stuff
 cask "alacritty"
+brew "fish"
 brew "helix"
 brew "starship"
 brew "zellij"
-brew "zsh"
-brew "zsh-completions"
-brew "zsh-syntax-highlighting"
 
 # Package managers
 brew "node"
@@ -56,7 +54,7 @@ brew "ripgrep"
 brew "stow"
 
 # Include local Brewfile if present
-local_file = File.join(ENV["HOME"], "/.local/.config/Brewfile")
+local_file = File.join(ENV["HOME"], "/.config/local.Brewfile")
 if File.file?(local_file) then
   instance_eval(File.read(local_file))
 end
