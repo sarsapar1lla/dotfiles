@@ -17,8 +17,10 @@ To install dotfiles, clone this repo to `~/dotfiles` then run:
 
 ```bash
 $ cd ~/dotfiles
-$ stow .
+$ stow . --no-folding
 ```
+
+The `--no-folding` option ensures that multiple different stow directories won't conflict.
 
 ## Install packages
 

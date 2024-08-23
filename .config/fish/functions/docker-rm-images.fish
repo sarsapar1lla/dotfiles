@@ -3,5 +3,3 @@ function docker-rm-images -d "remove all docker images"
         docker image rm $i
     end
 end
-
-abbr dri docker-remove-images

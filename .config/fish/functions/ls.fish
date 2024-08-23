@@ -5,7 +5,3 @@ function ls -d "use eza instead of ls"
         command ls $argv
     end
 end
-
-function ll -d "alias eza -la"
-    eza -la --icons $argv
-end

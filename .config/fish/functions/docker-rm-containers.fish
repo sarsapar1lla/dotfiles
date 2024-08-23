@@ -3,5 +3,3 @@ function docker-rm-containers -d "remove all docker containers"
         docker container rm $c
     end
 end
-
-abbr drc docker-rm-containers
