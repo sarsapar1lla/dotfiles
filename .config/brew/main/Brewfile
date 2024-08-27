@@ -25,9 +25,6 @@ brew "yaml-language-server"
 # Window manager
 cask "rectangle"
 
-# Pairing
-cask "tuple"
-
 # Docker
 brew "colima"
 brew "docker"
@@ -36,25 +33,18 @@ brew "docker-completion"
 brew "docker-compose"
 brew "docker-credential-helper"
 
-# Databases
-brew "mysql"
-brew "postgresql@14"
-
 # Tools
 brew "bacon"
 brew "bat"
-brew "cycode"
 brew "dust"
 brew "eza"
 brew "fzf"
-brew "gradle"
 brew "jq"
-brew "plantuml"
 brew "ripgrep"
 brew "stow"
 
 # Include local Brewfile if present
-local_file = File.join(ENV["HOME"], "/.config/local.Brewfile")
+local_file = File.join(ENV["HOME"], "/.config/brew/local/Brewfile")
 if File.file?(local_file) then
   instance_eval(File.read(local_file))
 end
