@@ -184,7 +184,7 @@ success_symbol = '[λ](bold peach)'
 error_symbol = '[❱](bold red)'
 
 [username]
-style_user = "bold lavender"
+style_user = "bold maroon"
 show_always = true
 
 [time]
