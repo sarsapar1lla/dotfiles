@@ -1,17 +1,37 @@
-format = '🦊 in $directory$git_branch$git_state$git_status$memory_usage$character'
-right_format = '$python$java$rust$haskell$elixir'
+format = '$username$directory$git_branch$git_state$git_status$memory_usage$character'
+right_format = '$python$java$rust$haskell$cmd_duration'
 
 command_timeout = 1000
 
-palette = 'tim'
+palette = 'catppuccin_mocha'
 
-[palettes.tim]
-aqua = '#05fccb'
-purple = '#b305f7'
-hotpink = '#ff33cc'
-limegreen = '#99ff33'
-orange = '#ff6600'
-cyan = '#00ccff'
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
 
 [aws]
 symbol = "  "
@@ -30,7 +50,7 @@ symbol = " "
 
 [directory]
 read_only = " "
-style = 'bold limegreen'
+style = 'bold green'
 
 [docker_context]
 symbol = " "
@@ -46,7 +66,7 @@ symbol = " "
 
 [git_branch]
 symbol = " "
-style = 'bold cyan'
+style = 'bold blue'
 
 [golang]
 symbol = " "
@@ -68,7 +88,7 @@ ssh_symbol = " "
 
 [java]
 symbol = " "
-style = 'bold orange'
+style = 'bold peach'
 
 [julia]
 symbol = " "
@@ -80,7 +100,7 @@ symbol = " "
 symbol = " "
 threshold = 80
 disabled = false
-style = "bold aqua"
+style = "bold teal"
 
 [meson]
 symbol = "喝 "
@@ -160,16 +180,19 @@ symbol = " "
 symbol = "🅢 "
 
 [character]
-success_symbol = '[λ](bold orange)'
-error_symbol = '[!](bold hotpink)'
+success_symbol = '[λ](bold peach)'
+error_symbol = '[❱](bold red)'
 
 [username]
-style_user = "bold aqua"
-show_always = false
+style_user = "bold maroon"
+show_always = true
+
+[time]
+disabled = false
 
 [git_status]
-untracked = '[⬤ ](hotpink)'
-modified = '[⬤ ](orange)'
-staged = '[⬤ ](limegreen)'
+untracked = '[⬤ ](red)'
+modified = '[⬤ ](peach)'
+staged = '[⬤ ](green)'
 stashed = '📦 '
 format = '$untracked$modified$staged$stashed'
