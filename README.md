@@ -39,3 +39,8 @@ to take effect
 To include additional local abbreviations or functions, (e.g. sensitive work-related stuff), symlink them to
 the `~/.config/fish/conf.d` or `~/.config/fish/functions` directories and they'll be picked up automatically
 by fish. Easy!
+
+## Fonts
+
+Some features of the terminal configuration require fonts that support emojis etc. The `CaskaydiaCove` font
+can be downloaded [here](https://www.nerdfonts.com/font-downloads).
