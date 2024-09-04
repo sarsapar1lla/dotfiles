@@ -42,5 +42,5 @@ by fish. Easy!
 
 ## Fonts
 
-Some features of the terminal configuration require fonts that support emojis etc. The `CaskaydiaCove` font
-can be downloaded [here](https://www.nerdfonts.com/font-downloads).
+The fonts used by the Alacritty config are installed by Homebrew as part of the bundle. However, you may still
+need to manually activate the fonts via the `Font Book` application.
