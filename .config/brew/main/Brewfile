@@ -21,6 +21,7 @@ brew "actionlint"
 brew "cfn-lint"
 brew "marksman"
 brew "ruff"
+brew "sqlfluff"
 brew "taplo"
 brew "yaml-language-server"
 
