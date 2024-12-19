@@ -47,6 +47,7 @@ brew "jq"
 brew "ripgrep"
 brew "stow"
 brew "usage"  # required by mise
+brew "uv"
 
 # Include local Brewfile if present
 local_file = File.join(ENV["HOME"], "/.config/brew/local/Brewfile")
