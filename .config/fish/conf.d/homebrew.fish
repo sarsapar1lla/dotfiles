@@ -1,9 +1,6 @@
 if command --query brew
     set -gx HOMEBREW_BUNDLE_FILE "$HOME/.config/brew/main/Brewfile"
     set -gx HOMEBREW_BUNDLE_NO_LOCK 1
-
-    set -gx PATH $PATH "$(brew --prefix)/bin"
-    set -gx PATH $PATH "$(brew --prefix)/sbin"
 else
     echo "'brew' is not installed on path"
 end
