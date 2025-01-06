@@ -1,3 +1,4 @@
+# Python
 [[language]]
 name = "python"
 language-servers = ["pyright", "ruff"]
@@ -6,3 +7,23 @@ auto-format = true
 [language-server.ruff]
 command = "ruff"
 args = ["server"]
+
+# Yaml
+[[language]]
+name = "yaml"
+language-servers = ["yaml-language-server"]
+
+[language-server.yaml-language-server.config.yaml]
+customTags = [
+  "!Ref",
+  "!Sub",
+  "!GetAtt",
+  "!ImportValue",
+  "!Equals sequence",
+  "!And sequence",
+  "!Or sequence",
+  "!If sequence"
+]
+
+[language-server.yaml-language-server.config.yaml.schemas]
+"https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json" = "cf.{yml,yaml}"
