@@ -3,6 +3,7 @@ theme = "catppuccin_mocha"  # NB: using the no-italics variant
 [editor]
 line-number = "relative"
 bufferline = "multiple"
+end-of-line-diagnostics = "hint"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -25,8 +26,21 @@ skip-levels = 1
 [editor.soft-wrap]
 enable = true
 
-[keys.insert]
-"C-l" = "signature_help"
+[editor.inline-diagnostics]
+cursor-line = "error"
+
+[keys.normal]
+W = "move_next_sub_word_start"
+B = "move_prev_sub_word_start"
+E = "move_next_sub_word_end"
 
 [keys.normal.space]
 "H" = ":toggle lsp.display-inlay-hints"
+
+[keys.insert]
+"C-l" = "signature_help"
+
+[keys.select]
+W = "extend_next_sub_word_start"
+B = "extend_prev_sub_word_start"
+E = "extend_next_sub_word_end"
