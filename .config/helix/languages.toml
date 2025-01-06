@@ -1,6 +1,8 @@
 [[language]]
 name = "python"
-roots = ["pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", "poetry.lock"]
-language-servers = ["pyright"]
+language-servers = ["pyright", "ruff"]
 auto-format = true
-formatter = { command = "ruff", args = ["format", "-"]}
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
