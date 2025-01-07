@@ -4,6 +4,8 @@ if command --query brew
 
     set -gx PATH $PATH /usr/local/bin
     set -gx PATH $PATH /usr/local/sbin
+
+    abbr brewup "brew update && brew bundle install --cleanup && brew upgrade"
 else
     echo "'brew' is not installed on path"
 end
