@@ -1,4 +1,4 @@
 if command --query docker
-    abbr drc "docker container rm $(docker container ls -qa)"
-    abbr dri "docker image rm $(docker image ls -qa)"
+    abbr drc "docker container ls -qa | xargs docker container rm"
+    abbr dri "docker image ls -qa | xargs docker image rm"
 end
