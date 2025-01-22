@@ -8,6 +8,10 @@ auto-format = true
 command = "ruff"
 args = ["server"]
 
+[[language]]
+name = "toml"
+auto-format = true
+
 # Yaml
 [[language]]
 name = "yaml"
@@ -22,7 +26,7 @@ customTags = [
   "!Equals sequence",
   "!And sequence",
   "!Or sequence",
-  "!If sequence"
+  "!If sequence",
 ]
 
 [language-server.yaml-language-server.config.yaml.schemas]
