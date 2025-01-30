@@ -17,13 +17,21 @@ brew "git"
 brew "gitui"
 
 # LSP
-brew "actionlint"
-brew "cfn-lint"
 brew "marksman"
 brew "ruff"
-brew "sqlfluff"
 brew "taplo"
 brew "yaml-language-server"
+
+# Linters
+brew "actionlint"
+brew "cfn-lint"
+brew "sqlfluff"
+brew "tflint"
+
+# Terraform
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/terraform-ls"
 
 # Window manager
 cask "rectangle"
