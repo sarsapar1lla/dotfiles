@@ -1,9 +1,10 @@
+if test -d /opt/homebrew
+    /opt/homebrew/bin/brew shellenv | source
+end
+
 if command --query brew
     set -gx HOMEBREW_BUNDLE_FILE "$HOME/.config/brew/main/Brewfile"
     set -gx HOMEBREW_BUNDLE_NO_LOCK 1
-
-    set -gx PATH $PATH /usr/local/bin
-    set -gx PATH $PATH /usr/local/sbin
 
     abbr brewup "brew update && brew bundle install --cleanup && brew upgrade"
 else
