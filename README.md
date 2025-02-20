@@ -5,6 +5,12 @@
 - [Homebrew package manager](https://brew.sh/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
+Add brew and binaries to path using:
+
+```bash
+$ eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 After installing Homebrew, add stow using:
 
 ```bash
@@ -24,10 +30,10 @@ The `--no-folding` option ensures that multiple different stow directories won't
 
 ## Install packages
 
-Install brew packages from the `~/.config/Brewfile` using:
+Install brew packages from the `~/.config/brew/main/Brewfile` using:
 
 ```bash
-$ brewup
+$ brew update && brew bundle install --cleanup --file ~/.config/brew/main/Brewfile && brew upgrade
 ```
 
 > *NB*: to use the brew installed `fish`, you will need to edit the `/etc/shells` file to include the installed
