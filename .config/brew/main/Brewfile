@@ -44,7 +44,6 @@ brew "docker-completion"
 brew "docker-compose"
 brew "docker-credential-helper"
 brew "dockerfile-language-server"
-brew "qemu"
 
 # Tools
 brew "bacon"
