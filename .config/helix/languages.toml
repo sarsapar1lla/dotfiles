@@ -23,10 +23,12 @@ customTags = [
   "!Sub",
   "!GetAtt",
   "!ImportValue",
+  "!Condition",
   "!Equals sequence",
   "!And sequence",
   "!Or sequence",
   "!If sequence",
+  "!Split sequence",
 ]
 
 [language-server.yaml-language-server.config.yaml.schemas]
