@@ -30,7 +30,7 @@ brew "tflint"
 
 # Terraform
 tap "hashicorp/tap"
-brew "hashicorp/tap/terraform"
+brew "opentofu"
 brew "hashicorp/tap/terraform-ls"
 
 # Window manager
