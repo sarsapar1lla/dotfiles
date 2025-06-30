@@ -54,6 +54,7 @@ brew "fzf"
 brew "jq"
 brew "ripgrep"
 brew "stow"
+brew "tabiew"
 brew "usage"  # required by mise
 brew "uv"
 
