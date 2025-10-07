@@ -1,4 +1,4 @@
-theme = "catppuccin_mocha"  # NB: using the no-italics variant
+theme = "catppuccin_mocha" # NB: using the no-italics variant
 
 [editor]
 line-number = "relative"
@@ -33,6 +33,7 @@ cursor-line = "error"
 W = "move_next_sub_word_start"
 B = "move_prev_sub_word_start"
 E = "move_next_sub_word_end"
+"ret" = ":w"
 
 [keys.normal.space]
 "H" = ":toggle lsp.display-inlay-hints"
