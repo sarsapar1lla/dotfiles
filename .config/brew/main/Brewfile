@@ -17,6 +17,7 @@ brew "git"
 brew "gitui"
 
 # LSP
+brew "gleam"
 brew "marksman"
 brew "ruff"
 brew "taplo"
