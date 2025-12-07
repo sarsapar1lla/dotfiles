@@ -121,6 +121,7 @@
       fzf
       gcc
       gh
+      gleam
       google-chrome
       helix
       jq
