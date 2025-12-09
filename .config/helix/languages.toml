@@ -1,3 +1,9 @@
+# Nix
+
+[[language]]
+name = "nix"
+auto-format = true
+
 # Python
 [[language]]
 name = "python"
@@ -8,6 +14,7 @@ auto-format = true
 command = "ruff"
 args = ["server"]
 
+# Toml
 [[language]]
 name = "toml"
 auto-format = true
