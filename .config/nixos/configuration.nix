@@ -8,6 +8,7 @@
   imports = [
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
+    ./gnome.nix
   ];
 
   # Bootloader.
@@ -102,7 +103,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.timo = {
     isNormalUser = true;
-    description = "Timothy May";
+    description = "Tim";
     extraGroups = [
       "networkmanager"
       "wheel"
