@@ -20,7 +20,7 @@
           night-light-enabled = true;
           night-light-schedule-automatic = true;
         };
-        
+
         "org/gnome/shell" = {
           favorite-apps = [
             "org.gnome.Nautilus.desktop"
@@ -33,6 +33,6 @@
           show-hidden = true;
         };
       };
-    }    
+    }
   ];
 }
