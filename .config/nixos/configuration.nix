@@ -42,7 +42,6 @@
       jq
       mise
       nil
-      pipx
       ripgrep
       rustup
       starship
