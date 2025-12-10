@@ -1,5 +1,5 @@
 { ... }:
 {
-  networking.hostName = "nixos";
+  networking.hostName = "zenith";
   networking.networkmanager.enable = true;
 }
