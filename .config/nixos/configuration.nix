@@ -59,9 +59,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
+    gnomeExtensions.blur-my-shell
   ];
 
   nix.settings.experimental-features = [
