@@ -13,5 +13,4 @@ if command --query brew
     and command --query bat
 
     set -gx HOMEBREW_BAT 1
-    set -gx HOMEBREW_BAT_THEME Catppuccin-mocha
 end
