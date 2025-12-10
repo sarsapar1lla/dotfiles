@@ -7,6 +7,7 @@
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
+    ./fonts.nix
     ./gnome.nix
     ./locale.nix
     ./network.nix
@@ -60,11 +61,6 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = [
-  ];
-
-  fonts.packages = with pkgs; [
-    nerd-fonts.caskaydia-cove
-    nerd-fonts.caskaydia-mono
   ];
 
   nix.settings.experimental-features = [
