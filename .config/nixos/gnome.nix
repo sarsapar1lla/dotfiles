@@ -1,5 +1,9 @@
 { config, ... }:
 {
+  # Enable Gnome
+  services.displayManager.gdm.enable = true;
+  services.desktopManager.gnome.enable = true;
+
   programs.dconf.profiles.user.databases = [
     {
       lockAll = true;
