@@ -1,3 +1,4 @@
 if command --query nixos-rebuild
-    set -gx NIXOS_CONFIG "$HOME/.config/nixos/configuration.nix"
+    set -l NIXOS_FLAKE_PATH $(readlink -f "$HOME/.config/nixos/flake.nix" | xargs -- dirname)
+    abbr nrb "nixos-rebuild switch --flake '$NIXOS_FLAKE_PATH#zenith' --sudo"
 end
