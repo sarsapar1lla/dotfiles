@@ -1,5 +1,12 @@
-{ config, ... }:
+{ config, lib, ... }:
 {
+  # Enable Gnome
+  services.displayManager.gdm.enable = true;
+  services.desktopManager.gnome.enable = true;
+
+  # Enable the X11 windowing system.
+  services.xserver.enable = true;
+
   programs.dconf.profiles.user.databases = [
     {
       lockAll = true;
@@ -7,6 +14,16 @@
         "org/gnome/desktop/background" = {
           picture-options = "zoom";
           picture-uri-dark = "file://${config.users.users.timo.home}/.config/nixos/assets/itb.png";
+        };
+
+        "org/gnome/desktop/input-sources" = {
+          show-all-sources = true;
+          sources = with lib.gvariant; [
+            (mkTuple [
+              "xkb"
+              "us"
+            ])
+          ];
         };
 
         "org/gnome/desktop/interface" = {
