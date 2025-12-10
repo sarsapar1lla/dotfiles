@@ -1,4 +1,4 @@
-{ config, ... }:
+{ config, lib, ... }:
 {
   # Enable Gnome
   services.displayManager.gdm.enable = true;
@@ -18,7 +18,7 @@
 
         "org/gnome/desktop/input-sources" = {
           show-all-sources = true;
-          sources = [
+          sources = with lib.gvarient; [
             (mkTuple [
               "xkb"
               "us"
