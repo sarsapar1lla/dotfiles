@@ -6,17 +6,11 @@
     /etc/nixos/hardware-configuration.nix
     ./audio.nix
     ./bluetooth.nix
+    ./boot.nix
     ./gnome.nix
     ./locale.nix
     ./network.nix
   ];
-
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
-  # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.timo = {
