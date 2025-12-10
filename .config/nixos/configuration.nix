@@ -5,6 +5,7 @@
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
     ./audio.nix
+    ./bluetooth.nix
     ./gnome.nix
     ./locale.nix
     ./network.nix
@@ -16,25 +17,6 @@
 
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
-
-  # Enable bluetooth
-  # hardware = {
-  #   enableAllFirmware = true;
-  #   bluetooth = {
-  #     enable = true;
-  #     powerOnBoot = true;
-  #     settings = {
-  #       General = {
-  #         Experimental = true;
-  #         FastConnectable = true;
-  #       };
-  #       Policy = {
-  #         AutoEnable = true;
-  #       };
-  #     };
-  #   };
-  # };
-  # services.blueman.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.timo = {
