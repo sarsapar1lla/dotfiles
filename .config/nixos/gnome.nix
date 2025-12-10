@@ -4,6 +4,9 @@
   services.displayManager.gdm.enable = true;
   services.desktopManager.gnome.enable = true;
 
+  # Enable the X11 windowing system.
+  services.xserver.enable = true;
+
   programs.dconf.profiles.user.databases = [
     {
       lockAll = true;
