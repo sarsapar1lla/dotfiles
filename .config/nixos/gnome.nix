@@ -1,4 +1,9 @@
-{ config, lib, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 {
   # Enable Gnome
   services.displayManager.gdm.enable = true;
@@ -39,6 +44,9 @@
         };
 
         "org/gnome/shell" = {
+          enabled-extensions = [
+            pkgs.gnomeExtensions.blur-my-shell.extensionUuid
+          ];
           favorite-apps = [
             "org.gnome.Nautilus.desktop"
             "Alacritty.desktop"
