@@ -3,7 +3,8 @@
 {
   imports = [
     # Include the results of the hardware scan.
-    /etc/nixos/hardware-configuration.nix
+    ./hardware-configuration.nix
+
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
