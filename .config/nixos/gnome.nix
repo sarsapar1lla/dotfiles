@@ -54,6 +54,10 @@
           ];
         };
 
+        "org/gnome/shell/extensions/blur-my-shell/applications" = {
+          enable-all = true;
+        };
+
         "org/gtk/gtk4/Settings/FileChooser" = {
           show-hidden = true;
         };
