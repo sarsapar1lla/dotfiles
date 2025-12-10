@@ -12,6 +12,20 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  services.gnome.games.enable = false;
+  environment.gnome.excludePackages = with pkgs; [
+    cheese # Camera utility
+    file-roller # Archive manager
+    geary # Email client
+    gnome-connections # Remote desktop tool
+    gnome-console
+    gnome-contacts
+    gnome-text-editor
+    gnome-tour
+    simple-scan # Document scanner
+    yelp # Help tool
+  ];
+
   programs.dconf.profiles.user.databases = [
     {
       lockAll = true;
