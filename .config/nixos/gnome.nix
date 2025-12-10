@@ -18,7 +18,7 @@
 
         "org/gnome/desktop/input-sources" = {
           show-all-sources = true;
-          sources = with lib.gvarient; [
+          sources = with lib.gvariant; [
             (mkTuple [
               "xkb"
               "us"
