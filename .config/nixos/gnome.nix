@@ -16,6 +16,16 @@
           picture-uri-dark = "file://${config.users.users.timo.home}/.config/nixos/assets/itb.png";
         };
 
+        "org/gnome/desktop/input-sources" = {
+          show-all-sources = true;
+          sources = [
+            (mkTuple [
+              "xkb"
+              "us"
+            ])
+          ];
+        };
+
         "org/gnome/desktop/interface" = {
           accent-color = "orange";
           color-scheme = "prefer-dark";
