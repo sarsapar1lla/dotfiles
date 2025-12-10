@@ -47,9 +47,14 @@
 
         "org/gnome/desktop/interface" = {
           accent-color = "orange";
-          color-scheme = "prefer-dark";
+
           clock-format = "24h";
           clock-show-weekday = true;
+
+          color-scheme = "prefer-dark";
+
+          font-hinting = "full";
+          font-antialiasing = "rgba";
         };
 
         "org/gnome/settings-daemon/plugins/color" = {
