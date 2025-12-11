@@ -33,6 +33,7 @@
       dockerfile-language-server
       dust
       eza
+      fastfetch
       fzf
       gcc
       gh
