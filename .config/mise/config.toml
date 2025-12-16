@@ -4,7 +4,7 @@ settings.idiomatic_version_file_enable_tools = ["python"]
 python = "3.12"
 java = "21"
 
-[alias.java.versions]
+[tool_alias.java.versions]
 11 = "corretto-11"
 17 = "corretto-17"
 21 = "corretto-21"
