@@ -1,5 +1,4 @@
 # Nix
-
 [[language]]
 name = "nix"
 auto-format = true
@@ -7,11 +6,15 @@ auto-format = true
 # Python
 [[language]]
 name = "python"
-language-servers = ["pyright", "ruff"]
+language-servers = ["ty", "ruff"]
 auto-format = true
 
 [language-server.ruff]
 command = "ruff"
+args = ["server"]
+
+[language-server.ty]
+command = "ty"
 args = ["server"]
 
 # Toml
