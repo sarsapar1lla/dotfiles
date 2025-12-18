@@ -43,6 +43,7 @@
       jq
       mise
       nil
+      prek
       ripgrep
       rustup
       starship
