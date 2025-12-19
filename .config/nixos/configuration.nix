@@ -26,6 +26,7 @@
     packages = with pkgs; [
       alacritty
       bacon
+      cargo-tarpaulin
       colima
       docker
       docker-buildx
