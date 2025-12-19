@@ -41,7 +41,6 @@
       google-chrome
       helix
       jq
-      mise
       nil
       prek
       ripgrep
