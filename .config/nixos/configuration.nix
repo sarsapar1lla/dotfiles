@@ -26,6 +26,7 @@
     packages = with pkgs; [
       alacritty
       bacon
+      cargo-tarpaulin
       colima
       docker
       docker-buildx
@@ -41,8 +42,8 @@
       google-chrome
       helix
       jq
-      mise
       nil
+      prek
       ripgrep
       rustup
       starship
