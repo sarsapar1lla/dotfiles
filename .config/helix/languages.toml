@@ -1,3 +1,9 @@
+# HCL
+[[language]]
+name = "hcl"
+auto-format = true
+formatter = { command = "tofu", args = ["fmt", "-"] }
+
 # Nix
 [[language]]
 name = "nix"
