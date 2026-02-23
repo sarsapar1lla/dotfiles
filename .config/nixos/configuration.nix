@@ -48,6 +48,7 @@
       rustup
       starship
       stow
+      usage
       uv
       zellij
     ];
