@@ -48,6 +48,8 @@
       rustup
       starship
       stow
+      typst
+      tinymist
       usage
       uv
       zellij
