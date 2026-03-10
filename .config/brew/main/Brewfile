@@ -35,6 +35,10 @@ tap "hashicorp/tap"
 brew "opentofu"
 brew "hashicorp/tap/terraform-ls"
 
+# Typst
+brew "typst"
+brew "tinymist"
+
 # Window manager
 cask "rectangle"
 
