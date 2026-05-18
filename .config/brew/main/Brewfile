@@ -28,12 +28,13 @@ brew "yaml-language-server"
 brew "actionlint"
 brew "cfn-lint"
 brew "sqlfluff"
-brew "tflint"
 
 # Terraform
 tap "hashicorp/tap"
 brew "opentofu"
 brew "hashicorp/tap/terraform-ls"
+tap "terraform-linters/tap"
+brew "tflint"
 
 # Typst
 brew "typst"
