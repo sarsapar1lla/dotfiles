@@ -7,7 +7,7 @@ if command --query brew
     set -gx HOMEBREW_BUNDLE_NO_LOCK 1
     set -gx HOMEBREW_NO_REQUIRE_TAP_TRUST 1
 
-    abbr brewup "brew update && brew bundle install --upgrade --force-cleanup"
+    abbr brewup "brew update && brew bundle install --upgrade --force-cleanup && brew upgrade"
 end
 
 if command --query brew
