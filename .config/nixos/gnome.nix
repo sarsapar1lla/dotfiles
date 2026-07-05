@@ -70,6 +70,7 @@
             "org.gnome.Nautilus.desktop"
             "Alacritty.desktop"
             "google-chrome.desktop"
+            "steam.desktop"
           ];
         };
 
