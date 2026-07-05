@@ -59,6 +59,7 @@
   programs.bat.enable = true;
   programs.fish.enable = true;
   programs.git.enable = true;
+  programs.steam.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
