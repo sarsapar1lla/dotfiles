@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 
 {
   imports = [
@@ -57,7 +57,10 @@
   };
 
   programs.bat.enable = true;
-  programs.fish.enable = true;
+  programs.fish = {
+    enable = true;
+    shellAliases = lib.mkForce { };
+  };
   programs.git.enable = true;
   programs.steam.enable = true;
 
