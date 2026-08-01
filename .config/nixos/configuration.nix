@@ -57,7 +57,10 @@
   };
 
   programs.bat.enable = true;
-  programs.fish.enable = true;
+  programs.fish = {
+    enable = true;
+    shellAliases = { };
+  };
   programs.git.enable = true;
   programs.steam.enable = true;
 
