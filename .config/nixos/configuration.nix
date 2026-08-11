@@ -50,9 +50,11 @@
       stow
       typst
       tinymist
+      unzip
       usage
       uv
       zellij
+      zip
     ];
   };
 
