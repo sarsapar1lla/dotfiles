@@ -30,10 +30,16 @@ brew "cfn-lint"
 brew "sqlfluff"
 
 # Terraform
-tap "hashicorp/tap", trusted: true
 brew "opentofu"
+
+tap "hashicorp/tap", trusted: {
+  formula: "terraform-ls"
+}
 brew "hashicorp/tap/terraform-ls", trusted: true
-tap "terraform-linters/tap", trusted: true
+
+tap "terraform-linters/tap", trusted: {
+  formula: "tflint"
+}
 cask "terraform-linters/tap/tflint", trusted: true
 
 # Typst
