@@ -12,7 +12,7 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  services.xserver.displayManager.autoLogin.enable = false;
+  services.displayManager.autoLogin.enable = false;
 
   services.gnome.games.enable = false;
   environment.gnome.excludePackages = with pkgs; [
