@@ -41,7 +41,7 @@
       gcc
       gh
       gleam
-      # google-chrome
+      google-chrome
       helix
       jq
       nil
