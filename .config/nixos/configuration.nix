@@ -14,7 +14,8 @@
     ./network.nix
   ];
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
+  security.sudo.wheelNeedsPassword = true;
+
   users.users.timo = {
     isNormalUser = true;
     description = "Tim";
