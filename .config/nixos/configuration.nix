@@ -67,6 +67,7 @@
   };
   programs.git.enable = true;
   programs.steam.enable = true;
+  programs.firejail.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
