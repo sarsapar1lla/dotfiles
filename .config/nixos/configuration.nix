@@ -8,7 +8,6 @@
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
-    ./firejail.nix
     ./fonts.nix
     ./gnome.nix
     ./locale.nix
