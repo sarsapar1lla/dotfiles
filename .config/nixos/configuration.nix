@@ -17,7 +17,6 @@
 
   security.sudo.wheelNeedsPassword = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.timo = {
     isNormalUser = true;
     description = "Tim";
@@ -42,7 +41,7 @@
       gcc
       gh
       gleam
-      google-chrome
+      # google-chrome
       helix
       jq
       nil
