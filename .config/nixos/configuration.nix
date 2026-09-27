@@ -47,7 +47,6 @@
       nil
       prek
       ripgrep
-      rustup
       starship
       stow
       typst
