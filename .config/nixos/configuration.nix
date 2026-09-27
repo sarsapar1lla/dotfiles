@@ -29,6 +29,7 @@
       bacon
       cargo-tarpaulin
       colima
+      devenv
       docker
       docker-buildx
       docker-compose
@@ -46,7 +47,6 @@
       nil
       prek
       ripgrep
-      rustup
       starship
       stow
       typst
