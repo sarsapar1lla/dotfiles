@@ -33,10 +33,11 @@ The `--no-folding` option ensures that multiple different stow directories won't
 Install brew packages from the `~/.config/brew/main/Brewfile` using:
 
 ```bash
-$ brew update && brew bundle install --cleanup --file ~/.config/brew/main/Brewfile && brew upgrade
+$ brew update && brew bundle install --force-cleanup --file ~/.config/brew/main/Brewfile && brew upgrade
 ```
 
-> *NB*: to use the brew installed `fish`, you will need to edit the `/etc/shells` file to include the installed
+> [!NOTE]
+> To use the brew installed `fish`, you will need to edit the `/etc/shells` file to include the installed
 path. Then you can run `chsh -s $PATH_TO_FISH`. This may require you to restart your machine for the changes
 to take effect
 
