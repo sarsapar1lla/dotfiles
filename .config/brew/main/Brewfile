@@ -60,6 +60,7 @@ brew "dockerfile-language-server"
 # Tools
 brew "bacon"
 brew "bat"
+brew "curl"
 brew "dust"
 brew "eza"
 brew "fzf"
