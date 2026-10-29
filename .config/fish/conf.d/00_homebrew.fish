@@ -14,3 +14,7 @@ if command --query brew
 
     set -gx HOMEBREW_BAT 1
 end
+
+if test -d /opt/homebrew/opt/curl
+    set -gx PATH /opt/homebrew/opt/curl/bin $PATH
+end
