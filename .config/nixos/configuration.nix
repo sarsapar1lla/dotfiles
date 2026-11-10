@@ -15,12 +15,6 @@
   ];
 
   security.sudo.wheelNeedsPassword = true;
-  # Temporary fix until CA certificates are updated
-  security.pki.caCertificateBlacklist = [
-    "Comodo AAA Services root"
-    "emSign ECC Root CA - G3"
-  ];
-
   users.users.timo = {
     isNormalUser = true;
     description = "Tim";
